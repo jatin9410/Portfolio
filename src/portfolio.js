@@ -20,23 +20,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Kartik Rai",
-  title: "Kartik here",
+  username: "Jatin khandelwal",
+  title: "Jatin here",
   subTitle: emoji(
-    "A Full Stack developer with experience in building websites. You can often find me solving problems or maybe developing a new skill! P.S. I make good song recommendations :)"
+    "A Full Stack developer with experience in building websites. You can often find me solving problems or maybe developing a new skill!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/12mmK08Gg4r0_0Vqp0Ipk7IxVGcjwLHZ7/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/13YnpHozlSTidBNU_tRI7hlzVFOPzq2-1/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/kartikrai101",
-  linkedin: "https://www.linkedin.com/in/kartik-rai09/",
-  gmail: "kartikrai0912@gmail.com",
-  facebook: "https://www.facebook.com/profile.php?id=100057655892175",
+  github: "https://github.com/jatin9410",
+  linkedin: "https://www.linkedin.com/in/jatin-khandelwal-7848881b8",
+  gmail: "khandelwaljatin2401@gmail.com",
+  facebook: "https://www.facebook.com/jatin.khandelwal.967?mibextid=2JQ9oc",
+  // leetcode: "https://www.facebook.com/jatin.khandelwal.967?mibextid=2JQ9oc",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -46,7 +47,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER, OPEN TO LEARNING NEW TECHNOLOGIES AND BUILDING PROJECTS",
+  subTitle: "FULL STACK DEVELOPER AND PROBLEM SOLVER, OPEN TO LEARNING NEW TECHNOLOGIES AND BUILDING PROJECTS",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
@@ -94,12 +95,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "git",
+      fontAwesomeClassname: "fa-brands fa-git"
     },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "DBMS",
+      fontAwesomeClassname: "fa-solid fa-database"
     },
     // {
     //   skillName: "docker",
@@ -119,7 +124,7 @@ const educationInfo = {
       logo: require("./assets/images/ggsipu.png"),
       subHeader: "B.Tech - Computer Science and Engineering(CSE)",
       duration: "November 2020 - June 2024",
-      desc: "CGPA: 9.278 (Currently)",
+      desc: "CGPA: 9.22 (Currently)",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -143,7 +148,7 @@ const techStack = {
     },
     {
       Stack: "Frontend Development",
-      progressPercentage: "90%"
+      progressPercentage: "65%"
     },
     {
       Stack: "Backend Development",
@@ -162,8 +167,8 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "System Design",
-      progressPercentage: "60%"
+      Stack: "Object Oriented Programming",
+      progressPercentage: "85%"
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -178,24 +183,28 @@ const workExperiences = {
       role: "Full Stack Developer",
       company: "Jethi Tech Solutions",
       companylogo: require("./assets/images/jethiTech.jpeg"),
-      date: "June 2023 – August 2023",
-      desc: "Worked as a Full Stack developer majorly working on the frontend of various websites throughout the time period",
+      date: "May 2023 – August 2023",
+      desc: "Supported the development of 2 projects named Barbera( a online services platform) and ReeRoute( a transport logistics company)",
       descBullets: [
-        "Created the entire frontend of over 7+ different product and service based websites till now with ReactJS, NextJS, TailwindCSS and other libraries for better user engagement.",
-        "Orchestrated seamless backend and frontend integration of website, resulting in a 40% reduction in page load time and a 25% increase in user engagement and conversion rates."
-      ]
+        "Designing Schema and accordingly developed API’s using Apollo Server and Sequelize as ORM.",
+        // "Orchestrated seamless backend and frontend integration of website, resulting in a 40% reduction in page load time and a 25% increase in user engagement and conversion rates.",
+        "Integrated Client to Server using Apollo GraphQL Client and ensured Authentication and Authorization using JWT tokens and Twilio.",
+        "Designed UI pages and built UI components using ReactJs and Tailwind CSS."
+      ],
     },
+    
     {
-      role: "Front-End Developer",
-      company: "Petmojo",
-      companylogo: require("./assets/images/petmojo.png"),
-      date: "August 2022 – December 2022",
-      desc: "Developed the entire website and optimised screen sizes and systems using ReactJS, NextJS, TailwindCSS and JavaScript with 99% performance score.",
+      role: "Full Stack Developer",
+      company: "Outshade",
+      companylogo: require("./assets/images/outshade.jpg"),
+      date: "Sept 2022 – December 2022",
+      desc: "About: Worked on PowerGrid( ’Maharatna’ Public Sector Enterprise of Govt. of India) Website , a TelenganaGovernment project based on Nodejs, Reactjs, Javascript, Sequelize",
       descBullets: [
-        "Developed REST APIs on NodeJS and ExpressJS for fetching and sending data to MongoDB database.",
-        "Integration of the Payment Gateway with the built frontend for transaction, thereby increasing the sales of products by a huge margin.",
-        "Complete website SEO optimisation to enhance the website’s indexing and made it 96% SEO optimised."
-      ]
+        "Contributed on 3 Modules consisting of Circulation of Technical Circular, Dailymonitoring and Budget management from Building their frontend, Backend as well as linking them via Axios",
+        " Innovated and implemented reusable components, leveraging Figma as a design reference, to enhance development efficiency and user experience",
+        " Pioneered the creation of cutting-edge REST APIs, optimizing data communication between frontend, backend, and database, ensuring seamless synchronization."
+      ],
+      
     },
   ]
 };
@@ -215,13 +224,13 @@ const bigProjects = {
   subtitle: "",
   projects: [
     {
-      image: require("./assets/images/project1.png"),
-      projectName: "Petmojo",
-      projectDesc: "Built this website as a part of my internship work",
+      image: require("./assets/images/recyle.jpg"),
+      projectName: "Recycle",
+      projectDesc: "Orchestrated a Waste Management System, maximizing efficiency and minimizing environmental impact",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "https://petmojo.in/"
+          name: "Visit Github",
+          url: "https://github.com/jatin9410/wastemanage/"
         }
       ]
     },
@@ -232,7 +241,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Github",
-          url: "https://github.com/kartikrai101/CampVerse"
+          url: "https://github.com/jatin9410/CampVerse."
         }
       ]
     },
@@ -243,7 +252,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Github",
-          url: "https://github.com/kartikrai101/NFTwarrantySystem"
+          url: "https://github.com/jatin9410/NFT_Warranty_backend"
         }
       ]
     },
@@ -269,36 +278,36 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/18B8ksLoTxPsKi-h6_SrWXgaCetmHnOeL/view?usp=drivesdk"
         },
       ]
     },
     {
       title: "Web Developer Bootcamp",
       subtitle:
-        "Completed Web Developer Bootcamp from Udemy",
-      image: require("./assets/images/web.jpeg"),
+        "Getting Started with Nodejs",
+      image: require("./assets/images/Nodejs.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://www.udemy.com/certificate/UC-2bba7ca7-d5d1-43f2-bb18-d9b770069e70/"
+          url: "https://drive.google.com/file/d/17X2N9kP6mbOv1V5cXZbwden2zlpvtdTX/view?usp=drivesdk"
         },
       ]
     },
 
-    {
-      title: "Complete MySQL Course",
-      subtitle: "Completed complete MySQL course from Udemy",
-      image: require("./assets/images/MySQL.jpeg"),
-      imageAlt: "MySQL",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.udemy.com/certificate/UC-00b1a07f-5430-4f29-9b4d-ab243888b3b8/"
-        },
-      ]
-    }
+    // {
+    //   title: "Complete MySQL Course",
+    //   subtitle: "Completed complete MySQL course from Udemy",
+    //   image: require("./assets/images/MySQL.jpeg"),
+    //   imageAlt: "MySQL",
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://www.udemy.com/certificate/UC-00b1a07f-5430-4f29-9b4d-ab243888b3b8/"
+    //     },
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -324,7 +333,7 @@ const blogSection = {
     //     "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -363,8 +372,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-8690625956",
-  email_address: "kartikrai0912@gmail.com"
+  number: "+91-9532701690",
+  email_address: "khandelwaljatin2401@gmail.com"
 };
 
 // Twitter Section
